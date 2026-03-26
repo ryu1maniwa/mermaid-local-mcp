@@ -1,0 +1,27 @@
+{
+  "name": "mermaid-local-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "private": false,
+  "description": "Local MCP server that renders Mermaid diagrams via mmdc and returns PNG images for visual feedback loops in Claude Code",
+  "license": "MIT",
+  "author": "ryu1maniwa",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryu1maniwa/mermaid-local-mcp"
+  },
+  "keywords": [
+    "mcp",
+    "mermaid",
+    "diagram",
+    "claude-code",
+    "model-context-protocol"
+  ],
+  "scripts": {
+    "start": "node index.mjs"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.67"
+  }
+}
