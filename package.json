@@ -2,6 +2,9 @@
   "name": "mermaid-local-mcp",
   "version": "1.0.0",
   "type": "module",
+  "bin": {
+    "mermaid-local-mcp": "./index.mjs"
+  },
   "private": false,
   "description": "Local MCP server that renders Mermaid diagrams via mmdc and returns PNG images for visual feedback loops in Claude Code",
   "license": "MIT",
